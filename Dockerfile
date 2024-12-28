@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # 必要なポートを公開
-EXPOSE 8080
+EXPOSE 8000
 
 # アプリケーションを実行
 CMD ["python", "killer_bot.py"]
