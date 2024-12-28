@@ -6,7 +6,8 @@ from flask import Flask
 from threading import Thread
 
 # Botのトークンを設定
-
+# Botのトークンを環境変数から取得
+TOKEN = os.getenv("TOKEN")
 
 # Intentsを設定
 intents = discord.Intents.default()
