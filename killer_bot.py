@@ -4,6 +4,8 @@ from collections import defaultdict
 import asyncio
 from flask import Flask
 from threading import Thread
+import os
+
 
 # Botのトークンを設定
 # Botのトークンを環境変数から取得
